@@ -1,0 +1,16 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+    /*=============== Why Choose Us Section Area =================  */
+.why-choose-us-area{
+    margin-top: 100px;
+}
+
+.container{
+    max-width: 1600px;
+    margin: 0 auto;
+}
