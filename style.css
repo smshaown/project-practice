@@ -13,12 +13,13 @@ a{
 }
 
 .container{
-    max-width: 1600px;
+    max-width: 1644px;
     margin: 0 auto;
 }
 
 
     /*=============== Why Choose Us Section Area =================  */
+
 .why-choose-us-area{
     margin-top: 100px;
 }
@@ -30,12 +31,15 @@ a{
     gap: 40px;      
 }
 
+/*===============  Why Choose Us Images Area ================*/
+
 .why-choose-us-img{
     display: flex;
     align-items: center;
     gap: 0px;
     border-radius: 25px;
     overflow: hidden;
+    width: 50%;
 }
 
 .why-choose-us-img .first-img{
@@ -56,6 +60,12 @@ a{
     width: 100%;
     height: 100%;
     object-fit: cover;
+}
+
+/*===============  Why choose us content ================*/
+
+.why-choose-us-content{
+    width: 50%;
 }
 
 .why-choose-us-content .section-title{
@@ -85,4 +95,86 @@ a{
     line-height: 22px;
     font-weight: 400;
     color: #4B5563;
+}
+
+/*============= Why Choose content List  =====================*/
+
+.why-choose-us-list{
+    margin-bottom: 40px;
+}
+
+.why-choose-us-list ul{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.why-choose-us-list ul li{
+    background-color: #F8F8F8;
+    border-radius: 5px;
+    width: 48%;
+    padding: 4px;
+}
+
+
+.why-choose-us-list .why-choose-item-link {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.why-choose-us-list .why-choose-item-link .icon{
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 3px;
+    background-color: #FF6B00;
+    color: #fff;
+}
+.why-choose-us-list .why-choose-item-link p{
+    color: #000;
+    font-size: 18px;
+    line-height: 26px;
+    font-weight: 500;
+}
+
+/*========== why choose us list acitve color start ================*/
+
+.why-choose-us-list ul li.active{
+    background-color: #FF6B00;
+}
+
+.why-choose-us-list ul li.active .why-choose-item-link .icon{
+    background-color: #ffffff;
+    color: #FF6B00;
+}
+.why-choose-us-list ul li.active .why-choose-item-link p{
+    color: #ffffff;
+}
+
+/*========== why choose us list acitve color end===============*/
+
+
+.why-choose-us-des p {
+    font-size: 16px;
+    line-height: 22px;
+    font-weight: 400;
+    color: #4B5563;
+    margin-bottom: 40px;
+}
+
+.why-choose-btn {
+    padding: 10px 16px;
+    background-color: #FF6B00;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 500;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+    border: none;
+}
+.why-choose-btn i {
+    margin-left: 10px;
 }
