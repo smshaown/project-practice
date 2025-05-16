@@ -12,9 +12,13 @@ a{
     text-decoration: none;
 }
 
-.container{
+
+
+@media (min-width: 1920px)  {
+   .container{
     max-width: 1644px;
     margin: 0 auto;
+}
 }
 
 
