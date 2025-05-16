@@ -73,6 +73,20 @@ a{
     border: 2px solid rgb(0, 0, 0);
 }
 
+.emon-name{
+    position: absolute;
+    right: 30px;
+    bottom: 30px;
+    background-color: #FF6B00;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 20px;
+    border-radius: 10px;
+    border: 2px solid rgb(0, 0, 0);
+}
+
+
+
 
 
 .why-choose-us-img .first-img{
